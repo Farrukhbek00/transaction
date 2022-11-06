@@ -1,0 +1,23 @@
+{
+    "name": "farrukhbekzokirov/task",
+    "autoload": {
+        "psr-4": {
+            "Farrukhbekzokirov\\Task\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farrukhbek00",
+            "email": "farruhzokirov00@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse src"
+    }
+}
